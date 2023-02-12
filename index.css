@@ -58,6 +58,11 @@ body {
     margin-top: 100px;
 }
 
+.tit-1 {
+    display: flex;
+    flex-direction: column;
+}
+
 .tit-letra {
     display: flex;
     flex-direction: column;
@@ -89,7 +94,8 @@ body {
 
 .button {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 10px;
 }
 
 .button-link {
@@ -112,13 +118,40 @@ body {
     font-family: 'Sarala', sans-serif
 }
 
-.h1-sobre-mim {
+.button-let {
+    font-family: 'Sarala', sans-serif;
+    color: black;
+}
+
+button a:hover {
+    color: rgb(255, 0, 153);
+}
+
+.h2-sobre-mim {
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 35px;
+    color: rgb(255, 0, 153);
+}
+
+.h2-projetos {
+    color: rgb(255, 0, 153);
+}
+
+.h2-habilidades {
     color: rgb(255, 0, 153);
 }
 
 .conteudo {
     margin: 50px;
     font-family: 'Sarala', sans-serif;
-    color: white;
-    text-shadow: 1px 1px 1px black;
+    color: black;
 }
+
+.img-hab {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 200px;
+}
+
+
