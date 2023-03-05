@@ -18,14 +18,12 @@ body {
 
 .cabecalho {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+    flex-direction: column;
     padding: 24px;
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(45px);
     position: fixed;
-    width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
 }
@@ -39,7 +37,15 @@ body {
 
 .cabecalho-menu {
     display: flex;
-    gap: 200px;
+    flex-direction: column;
+    transition-property: left;
+    width: 120px;
+    gap: 50px;
+    padding: 20px;
+}
+
+a:hover {
+    color: black;
 }
 
 .cabecalho-menu-item {
@@ -131,14 +137,33 @@ button a:hover {
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
     font-size: 35px;
     color: rgb(255, 0, 153);
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 10px;
+    margin-top: 100px;
 }
 
 .h2-projetos {
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 35px;
     color: rgb(255, 0, 153);
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 10px;
 }
 
 .h2-habilidades {
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 35px;
     color: rgb(255, 0, 153);
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 10px;
+}
+
+.h2-contato {
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 35px;
+    color: rgb(255, 0, 153);
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 10px;
 }
 
 .conteudo {
@@ -159,3 +184,6 @@ button a:hover {
     height: 200px;
 }
 
+.sobre-mim {
+    text-align: center;
+}
